@@ -26,20 +26,20 @@ To run the frontend locally, follow these steps:
 
 1.  Clone the repository:
     
-    ### `git clone https://github.com/Pongtayot/iot-platform-frontend.git` 
+    `git clone https://github.com/Pongtayot/iot-platform-frontend.git` 
     
 2.  Navigate to the project directory:
     
-    ### `cd iot-platform-frontend` 
+    `cd iot-platform-frontend` 
     
 3.  Install the dependencies:
 
-    ### `npm install` 
+    `npm install` 
     
 4.  Create a `.env` file in the root directory and provide the necessary environment variables. You can refer to the `.env.example` file for the required variables.
     
 5.  Start the development server:
 
-    ### `npm start` 
+    `npm start` 
     
     This will start the development server and the application will be accessible at `http://localhost:3000`.
