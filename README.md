@@ -1,35 +1,45 @@
+
 # Iot Dashboard Website in React
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ![alt text](https://i.ibb.co/Ch8pP9n/image.png)
 
-Built using:
+## Features
 
--   Front-end library: React
--   CSS framework: MUI
+-   User authentication: Users can sign up, log in, and manage their accounts.
+-   Device management: Users can add, remove, and update their IoT devices.
+-   Monitoring: Users can view real-time data from their devices, such as temperature, humidity, pressure.
 
-In the /iot-platform-frontend, you can run:
+## Built using
+-   **React**: A JavaScript library for building user interfaces.
+-   **Redux**: A predictable state container for managing the application state.
+-   **Axios**: A library for making HTTP requests to the backend API.
+-   **Chart.js**: A JavaScript library for creating charts and visualizations.
+- **Material-UI**: A popular React UI framework for building responsive and attractive user interfaces.
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+To run the frontend locally, follow these steps:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+To run the frontend locally, follow these steps:
 
-### `npm test`
+1.  Clone the repository:
+    
+    ### `git clone https://github.com/Pongtayot/iot-platform-frontend.git` 
+    
+2.  Navigate to the project directory:
+    
+    ### `cd iot-platform-frontend` 
+    
+3.  Install the dependencies:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    ### `npm install` 
+    
+4.  Create a `.env` file in the root directory and provide the necessary environment variables. You can refer to the `.env.example` file for the required variables.
+    
+5.  Start the development server:
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    ### `npm start` 
+    
+    This will start the development server and the application will be accessible at `http://localhost:3000`.
