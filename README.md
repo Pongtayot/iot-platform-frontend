@@ -3,7 +3,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![alt text](https://i.ibb.co/Ch8pP9n/image.png)
+![alt text](https://i.ibb.co/crB4PNv/image.png)
 
 ## Features
 
@@ -43,3 +43,6 @@ To run the frontend locally, follow these steps:
     `npm start` 
     
     This will start the development server and the application will be accessible at `http://localhost:3000`.
+
+## Credit
+Pongtayot W. - Developer
